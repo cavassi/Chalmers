@@ -1,3 +1,6 @@
 [submodule "Year1/DAT216-Graphical-interfaces"]
 	path = Year1/DAT216-Graphical-interfaces
 	url = https://github.com/cavassi/DAT216-Graphical-interfaces.git
+[submodule "Year1/DAT017-MOP"]
+	path = Year1/DAT017-MOP
+	url = https://github.com/cavassi/DAT017-MOP.git
