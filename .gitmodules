@@ -4,3 +4,6 @@
 [submodule "Year1/DAT017-MOP"]
 	path = Year1/DAT017-MOP
 	url = https://github.com/cavassi/DAT017-MOP.git
+[submodule "Summer"]
+	path = Summer
+	url = https://github.com/cavassi/Summer.git
