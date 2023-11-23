@@ -1,0 +1,20 @@
+
+# We use reverse logic for the student repos,
+# i.e., everything is ignored, except files that students should work with.
+# https://www.linkedin.com/pulse/как-оптимизировать-gitignore-с-использованием-логики-alexey-solovyov/
+
+
+# Ignore everything except directories:
+*
+!*/
+
+# Track the following toplevel files:
+!/.gitignore
+!/answers.txt
+
+# Track Java files in the 'java' directory:
+!/java/**/*.java
+
+# Track Python files in the 'python' directory:
+!/python/**/*.py
+

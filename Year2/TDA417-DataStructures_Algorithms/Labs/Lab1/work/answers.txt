@@ -1,0 +1,96 @@
+
+#########################################################################################
+[LABORATION] Binary search
+##
+## Important note: This is a machine-readable config file that will be read using 
+## the Python 'configparser' library: https://docs.python.org/3/library/configparser.html
+##
+## Please follow these rules when editing this file:
+##  1. Only write your answer where there is a [...] stub.
+##  2. Multiline answers must be indented.
+##  3. Don't change anything else.
+#########################################################################################
+
+# Which programming language did you implement in? 
+# (Write only Java or Python)
+
+Language: [Python]
+
+
+# Who are you?
+
+Student: [Noa Cavassi]
+
+
+#########################################################################################
+[PART 3] Test your implementation
+#########################################################################################
+
+# How many comparisons does 'firstIndexOf' use *at most* for an array of...
+
+# ... 10 elements?
+Q3a: [4]
+
+# ... 100 elements?
+Q3b: [7]
+
+# ... 1,000 elements?
+Q3c: [10]
+
+# ... 1,000,000 elements?
+Q3d: [20]
+
+
+#########################################################################################
+[PART 4] Reason about your implementation
+#########################################################################################
+
+# How many comparisons would 'firstIndexOf' need for 1,000,000,000,000 elements?
+# (This is way too big for your computer's memory!)
+# Justify your answer.
+
+Q4a:
+    [Since BinarySearch's arithmetic is logarithmic, we can calculate the comparisons by doing lg(1,000,000,000,000), which is 39.x, which means we can do it in 40 comparisons.]
+
+
+#########################################################################################
+[APPENDIX] General information
+#########################################################################################
+
+# Approximately how many hours did you spend on the assignment?
+
+Hours: [5-10 hours, many of those not near computer, just thinking about solutions while on bus/ while working out etc]
+
+
+# Are there any known bugs or limitations?
+
+Bugs:
+    [I havn't found any yet, but I also havn't done any "real" testing yet so I can't know for sure.]
+
+Limitations:
+    [Extremely large numbers-]
+
+
+# Did you collaborate with any other students on this lab?
+# 
+#   If so, please write in what way you collaborated and with whom.
+#   Also include any resources (including the web) that you may
+#   have used in creating your design.
+
+Collaborations: 
+    [Discussing how to solve the problems. Tips and ideas. Different ways to solve the problem.]
+
+
+# Describe any serious problems you encountered.
+
+Problems: 
+    [Getting started with with the assignment system. It was so much to read.]
+
+
+# List any other comments here.
+#
+#   Feel free to provide any feedback on how much you learned
+#   from doing the assignment, and whether you enjoyed it.
+
+Comments: 
+    [Maybe instead of finishing the lectures early, we could have had a fast walkthrough on how git, GitLab, and the assignment system works. ]
